@@ -106,7 +106,7 @@ button {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #47575a;
+ /*  background-color: ;*/
    color: white;
    text-align: center;
    height:30vh;
@@ -133,7 +133,7 @@ button {
 }
 @media screen and (min-width:500px){
 .footer1 {
-   position: fixed;
+   position fixed;
    left: 0;
    bottom: 0;
    width: 100%;
