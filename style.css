@@ -3,10 +3,10 @@
 }
 
 body {
-  background-color: #b8c6db;
-  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+  background-color: #aaeeff;
+/*  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);*/
   font-family: 'Roboto', sans-serif
-  margin: 0;
+  margin: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,11 +66,11 @@ button {
 }
 
 
-.header {
+.header{
   overflow: hidden;
-  background-color: #7cf3d9;
+  background-color: #fd92c7;
   padding: 20px 10px;
-  /*position: sticky;*/
+  position: absolute;
   top: 0px;
   margin-top: 0px;
   width: 100%;
@@ -161,18 +161,18 @@ center.centered{
 }
 }
 .fa{
-      padding: 15px;
-      font-size: 15px;
-      text-decoration: none;
-      margin: 5px 2px;
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 5px 2px;
     }
 
-    .fa:hover {
-      opacity: 0.7;
-      mouse:pointer;
+.fa:hover {
+    opacity: 0.7;
+    mouse:pointer;
     }
 
-    .fa-facebook {
+.fa-facebook {
       background: #3B5998;
       color: white;
     }
@@ -219,5 +219,19 @@ center span{
 #mail{
   text-decoration: none;
   mouse:cursor;
-  color:#74d0f6;
+  color:#6050ea;
+}
+
+#answer{
+  text-decoration: none;
+}
+#answer .answers{
+  background-color: #d9d037;
+  border: 1px solid #54b301;
+}
+#choice-a, #choice-b, #choice-c, #choice-d{
+  padding: 30px;
+}
+.footer1 .icons p{
+  color:blue;
 }
